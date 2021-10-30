@@ -2,8 +2,6 @@ import React from 'react';
 import './Styles/css/index.min.css';
 import CardList from './Components/CardList.js';
 import Form from './Components/Form.js';
-import CardItem from './Components/CardItem.js';
-import { Typography } from '@material-ui/core';
 
 // const testData = [
 //   {
