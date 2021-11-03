@@ -9,6 +9,7 @@ class Card extends React.Component {
                 <div className={styles.card_text}>
                     <h1 className={styles.login} >{this.props.login}</h1>
                     <a className={styles.url} href={this.props.html_url}>{this.props.html_url}</a>
+                    <a className={styles.url} href={this.props.email}>{this.props.email}</a>
                     <p className={styles.date}>{this.props.created_at.substring(0, this.props.created_at.indexOf('T'))}</p>
                 </div>
           </div>
