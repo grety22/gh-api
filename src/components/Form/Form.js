@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React from 'react';
-import { TextField } from '@mui/material';
+import styles from "./Form.module.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class Form extends React.Component {
     state = {userName: ''};
@@ -8,21 +10,26 @@ class Form extends React.Component {
         event.preventDefault();
         const resp = await axios.get(`https://api.github.com/users/${this.state.userName}`);
         this.props.onSubmit(resp.data);
+        // reset input after submit 
         this.setState({ userName: ''});
         console.log(resp.data);
     }
     render (){
         return (
-            <form onSubmit={this.handleSubmit}>
-                <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            <form className={styles.form} onSubmit={this.handleSubmit}>
                 <input 
                     type="text" 
+                    className={styles.input}
                     value = {this.state.userName}
                     onChange = {event => this.setState({ userName: event.target.value })}
-                    placeholder="search for github user" 
+                    placeholder="search . . . " 
                     required 
                 />
-                <button>Add user</button>
+                <div className={styles.icon_container_border}>
+                    <div className={styles.icon_container}>
+                        <FontAwesomeIcon className={styles.icon} icon={faGithub} size="3x"/>
+                    </div>
+                </div>
             </form>
         )
     }

@@ -1,0 +1,11 @@
+.main {
+    // background-color: rgba(#1D2026, .8);
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    @media (min-width: 768px) {
+        margin: 40px auto;
+        padding: 40px;
+        width: 70%;
+    }
+}

@@ -1,0 +1,22 @@
+.footer {
+    color: #FFF;
+    display: flex;
+    border-bottom: 3px solid #38BDF2;
+    width: fit-content;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    .footer_separator,
+    .footer_a {
+        margin: 7px auto;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .footer_separator {
+        color: #707070;
+    }
+}

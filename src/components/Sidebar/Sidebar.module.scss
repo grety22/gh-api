@@ -1,0 +1,11 @@
+.sidebar {
+    width: 30%;
+    max-width: 130.8px;
+    background-color: rgba(#1D2026, .8);
+    text-align: center;
+    padding: 15px 0;
+    border-bottom-right-radius: 20px;
+    @media (min-width: 768px) {
+        width: 10%;
+    }
+}
