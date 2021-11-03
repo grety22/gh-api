@@ -27,7 +27,7 @@ class Form extends React.Component {
                 />
                 <div className={styles.icon_container_border}>
                     <div className={styles.icon_container}>
-                        <FontAwesomeIcon className={styles.icon} icon={faGithub} size="3x"/>
+                        <FontAwesomeIcon className={styles.icon} icon={faGithub} size="3x" onClick={this.handleSubmit}/>
                     </div>
                 </div>
             </form>
