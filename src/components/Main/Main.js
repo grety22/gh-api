@@ -8,7 +8,7 @@ export default class Main extends React.Component {
         return (
             <div className={styles.main}>
                 <Form onSubmit={this.props.onSubmit}/>
-                {this.props.profiles.map((profile) => <Card {...profile}/> )}
+                {this.props.profiles.reverse().map((profile) => <Card {...profile}/> )}
             </div>
         )
     }
