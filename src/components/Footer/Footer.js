@@ -4,7 +4,7 @@ import Icon from '../Icon/Icon';
 const Footer = () => {
     return (
         <div className={styles.footer}>
-            <p className={styles.footer_a}>github API</p>
+            <a href="https://github.com/grety22/gh-api" className={styles.footer_a}>github API</a>
             <p className={styles.footer_separator}> | </p>
             <p className={styles.footer_a}>made with</p>
             <Icon/>
