@@ -12,9 +12,14 @@
     position: fixed;
     .footer_separator,
     .footer_a {
+        color: #FFF;
+        text-decoration: none;
         margin: 7px auto;
         padding: 0 10px;
         font-size: 14px;
+        &:hover {
+            font-weight: bold;
+        }
     }
     .footer_separator {
         color: #707070;
