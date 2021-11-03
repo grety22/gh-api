@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/gh-api/static/css/main.2f0795e8.chunk.css",
-    "main.js": "/gh-api/static/js/main.2ed171a6.chunk.js",
-    "main.js.map": "/gh-api/static/js/main.2ed171a6.chunk.js.map",
+    "main.css": "/gh-api/static/css/main.1c67247f.chunk.css",
+    "main.js": "/gh-api/static/js/main.7658514d.chunk.js",
+    "main.js.map": "/gh-api/static/js/main.7658514d.chunk.js.map",
     "runtime-main.js": "/gh-api/static/js/runtime-main.d800d453.js",
     "runtime-main.js.map": "/gh-api/static/js/runtime-main.d800d453.js.map",
     "static/js/2.ef174109.chunk.js": "/gh-api/static/js/2.ef174109.chunk.js",
     "static/js/2.ef174109.chunk.js.map": "/gh-api/static/js/2.ef174109.chunk.js.map",
     "index.html": "/gh-api/index.html",
-    "static/css/main.2f0795e8.chunk.css.map": "/gh-api/static/css/main.2f0795e8.chunk.css.map",
+    "static/css/main.1c67247f.chunk.css.map": "/gh-api/static/css/main.1c67247f.chunk.css.map",
     "static/js/2.ef174109.chunk.js.LICENSE.txt": "/gh-api/static/js/2.ef174109.chunk.js.LICENSE.txt",
     "static/media/App.css": "/gh-api/static/media/body_bg.12bf4a00.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d800d453.js",
     "static/js/2.ef174109.chunk.js",
-    "static/css/main.2f0795e8.chunk.css",
-    "static/js/main.2ed171a6.chunk.js"
+    "static/css/main.1c67247f.chunk.css",
+    "static/js/main.7658514d.chunk.js"
   ]
 }
